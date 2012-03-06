@@ -1,0 +1,28 @@
+Source: libfcgi
+Priority: optional
+Section: libs
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+XSBC-Original-Maintainer: Tatsuki Sugiura <sugi@nemui.org>
+Build-Depends: debhelper (>> 4.0.0)
+Standards-Version: 3.7.2
+
+Package: libfcgi-dev
+Section: libdevel
+Architecture: any
+Depends: libfcgi0ldbl (= ${binary:Version})
+Description: Header files of FastCGI
+ FastCGI is a language independent, scalable, open extension
+ to CGI that provides high performance without the limitations
+ of server specific APIs.
+
+Package: libfcgi0ldbl
+Provides: libfcgi
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}
+Conflicts: libfcgi0, libfcgi0c2
+Replaces: libfcgi0, libfcgi0c2
+Description: Shared library of FastCGI
+ FastCGI is a language independent, scalable, open extension
+ to CGI that provides high performance without the limitations
+ of server specific APIs.

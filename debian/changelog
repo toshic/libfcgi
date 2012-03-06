@@ -1,0 +1,62 @@
+libfcgi (2.4.0-8yandex) unstable; urgency=low
+
+  * select replaced by poll
+
+ -- Ilya Golubtsov (Ilya) <golubtsov@yandex-team.ru>  Tue, 08 Feb 2011 13:19:08 +0300
+
+libfcgi (2.4.0-7.1ubuntu1) lucid; urgency=low
+
+  * Package is rejected in Ubuntu without source section, so add it.
+
+ -- Ilya Barygin <barygin@gmail.com>  Wed, 03 Feb 2010 12:28:54 +0300
+
+libfcgi (2.4.0-7.1) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * Fix FTBFS with GCC 4.4, thanks to Martin Michlmayr (Closes: #504963)
+
+ -- David Paleino <dapal@debian.org>  Mon, 21 Dec 2009 15:45:39 +0100
+
+libfcgi (2.4.0-7) unstable; urgency=low
+
+  * rebuild for long double 128bit transition. (Closes: #430250)
+  * update autotools scripts
+
+ -- Tatsuki Sugiura <sugi@nemui.org>  Tue,  5 Sep 2006 18:11:06 +0900
+
+libfcgi (2.4.0-6) unstable; urgency=low
+
+  * rebuild for new libstdc++
+
+ -- Tatsuki Sugiura <sugi@nemui.org>  Tue,  5 Sep 2006 08:19:25 +0900
+
+libfcgi (2.4.0-5) unstable; urgency=low
+
+  * fixed: package description (Closes: #226030)
+
+ -- Tatsuki Sugiura <sugi@nemui.org>  Mon,  5 Jan 2004 18:40:30 +0900
+
+libfcgi (2.4.0-4) unstable; urgency=low
+
+  * re-libtoolize for mips and mipsel (Closes: #213951)
+
+ -- Tatsuki Sugiura <sugi@nemui.org>  Tue, 18 Nov 2003 05:39:33 +0900
+
+libfcgi (2.4.0-3) unstable; urgency=low
+
+  * upload official debian archive agein (Closes: #203590)
+
+ -- Tatsuki Sugiura <sugi@nemui.org>  Sun, 21 Sep 2003 04:45:12 +0900
+
+libfcgi (2.4.0-2) unstable; urgency=low
+
+  * upload official debian archive (Closes: #203590)
+
+ -- Tatsuki Sugiura <sugi@nemui.org>  Mon,  8 Sep 2003 16:11:52 +0900
+
+libfcgi (2.4.0-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Tatsuki Sugiura <sugi@nemui.org>  Tue,  8 Jul 2003 13:58:36 +0900
+
